@@ -1,0 +1,24 @@
+  /*
+        szelektor {
+            tulajdonsag(szín): ertek;
+        }
+        */
+        body p {
+            color: blue;
+        }
+        nav a {
+            color: darkgreen;
+            padding: 20px;
+            background-color: yellow;
+        }
+        h2, h3 {
+            color: purple;
+        }
+        nav {
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+        body {
+            color: coral;
+        }
