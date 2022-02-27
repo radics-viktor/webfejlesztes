@@ -17,6 +17,38 @@ div {
     border: 1px solid black;
 }
 
-p:first-of-type {
-    color: green
+body>p:first-of-type {
+    color: yellow
+}
+
+/* közvetlen gyerek */
+body>p {
+    background-color: blueviolet;
+}
+li.vorosek+li{
+    background-color: gold;
+}
+
+li.vorosek~li {
+    border-right: 5px solid brown
+}
+
+p:first-child {
+    font-size: 30px;
+}
+
+ol li:nth-child(4) {
+    font-family: 'Courier New'
+}
+
+tr:nth-child(3n+1) td {
+    background-color: indianred;
+}
+
+td:nth-child(2n+1) {
+    background-color: khaki;
+}
+
+[title = "masodik"] {
+    font-weight: bold;
 }
