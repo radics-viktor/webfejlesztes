@@ -1,0 +1,23 @@
+/* * {
+    background-color: blue;
+} */
+
+#p1 {
+    font-style: italic;
+} 
+
+#p2 {
+    font-weight: bold;
+}
+
+#p3 {
+    color: red;
+}
+
+#p4 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#p5 {
+    font-family: cursive;
+}
