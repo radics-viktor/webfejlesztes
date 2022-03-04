@@ -74,3 +74,21 @@ body {
     color: red;
     letter-spacing: 6px;
 }
+
+#p16 {
+    color: blue;
+    letter-spacing: -0.8px;
+}
+/* shorthand */
+#p17 {
+    /* font-weight: bold;
+    font-variant: small-caps;
+    font-size: 20px;
+    font-family: fantasy; */
+    font: bold small-caps 20px fantasy;
+}
+
+#p18 {
+    word-spacing: 15px;
+}
+
