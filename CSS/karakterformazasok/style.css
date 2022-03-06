@@ -2,12 +2,14 @@
     background-color: blue;
 } */
 
+/* dőlt */
 #p1 {
     font-style: italic;
 } 
 
+/* feltűnő */
 #p2 {
-    font-weight: bold;
+    font-weight: bold; 
 }
 
 #p3 {
@@ -35,6 +37,7 @@ font-family: fantasy;
     font-family: Tangerine;
 }
 
+/* betűváltozat: kiskapitális */
 #p9 {
     font-variant: small-caps;
 }

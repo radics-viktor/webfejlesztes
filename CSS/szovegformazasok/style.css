@@ -18,7 +18,7 @@
     /* text-decoration: overline; */
     text-decoration-color: red;
     text-decoration-line: line-through underline;
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: 3px;
 }
 
 a {
@@ -27,7 +27,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    text-decoration-style: wavy;
+    text-decoration-style: dashed;
 }
 
 #p6 {
@@ -38,14 +38,15 @@ a:hover {
 #p7 {
     /* 4 px: jobbra */
     /* 7px: le */
-    /* 2px: elmosás */
-    text-shadow: gray 4px 7px 6px;
+    /* 3px: elmosás */
+    text-shadow: gray 4px 7px 3px;
 }
 
 #p8 {
     text-shadow: 0px 0px 3px blue ;
 }
 
+/* NAGYBETŰS */
 #p9 {
     text-transform: uppercase;
 }
