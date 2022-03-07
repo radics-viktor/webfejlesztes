@@ -50,3 +50,44 @@ a:hover {
 #p9 {
     text-transform: uppercase;
 }
+
+#p10 {
+    text-transform: lowercase;
+}
+
+#p11 {
+    text-transform: capitalize;
+}
+
+#p12 {
+    line-height: 3em;
+}
+
+/* white space = sortörés, tabulátor, space */
+#p13 {
+    background-color: bisque;
+    white-space: nowrap;
+    white-space: pre-wrap;
+    white-space: pre-line;
+    /* white-space: normal; */
+}
+
+#p14 {
+    background-color: tomato;
+}
+
+#p15 {
+    background-color: rgb(196, 0, 0);
+}
+
+#p16 {
+    background-color: rgb(158, 50, 158);
+}
+
+#p17 {
+    background-color: rgba(158, 50, 158, 25%);
+}
+
+#p18 {
+    background-color: #b8860b;
+}
