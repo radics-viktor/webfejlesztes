@@ -59,15 +59,19 @@ a:hover {
     text-transform: capitalize;
 }
 
+/* sorköz */
 #p12 {
-    line-height: 3em;
+    line-height: 4em;
 }
 
 /* white space = sortörés, tabulátor, space */
 #p13 {
     background-color: bisque;
+    /* white-space: pre-wrap; */
+    /* white-space: pre-wrap; */
+    /* white-space: pre-wrap; */
     white-space: nowrap;
-    white-space: pre-wrap;
+    /* white-space: pre-wrap; */
     white-space: pre-line;
     /* white-space: normal; */
 }
