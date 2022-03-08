@@ -92,6 +92,23 @@ a:hover {
     background-color: rgba(158, 50, 158, 25%);
 }
 
+/* utolsó 80=átlátszóság(alfa) */
 #p18 {
-    background-color: #b8860b;
+    background-color: #b8860b80;
+}
+
+#p19 {
+    background-color: rgb(184, 134, 11);
+    color: rgb(100, 100, 100);
+    font-size: 150%;
+    letter-spacing: 3px;
+}
+
+/* árnyalat, telítettség, fényerő */
+#p20 {
+    background-color: hsl(120, 80%, 45%);
+}
+
+#p21 span {
+    color: red;
 }

@@ -1,0 +1,38 @@
+body {
+    width: 90%;
+    margin: auto;
+}
+
+img {
+    float: right;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    width: 20em;
+}
+
+#clearfix {
+    clear: right;
+}
+
+table, td, th {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+html {
+    background-color: rgba(200, 0, 0, 10%);
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-shadow: 2px 1px 2px pink;
+}
+
