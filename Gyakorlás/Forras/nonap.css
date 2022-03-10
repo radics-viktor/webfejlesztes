@@ -43,10 +43,10 @@ h2 {
     font-family: Comic Sans MS, Brush Script MT;
     word-spacing: 10px;
     text-decoration-line: underline;
-    text-decoration: 2px wavy underline;
-    text-decoration-color: yellow;
+    text-decoration: 2px wavy underline yellow;
     background-color: #00A54575;
     border: 2px solid black;
+    color: white;
 }
 
 table {
@@ -66,6 +66,7 @@ table span {
 
 p .kiemelt {
     text-decoration: 2px underline;
+    text-decoration-style: double;
     text-decoration-color: rgba(125, 56, 125, 40%);
 }
 
