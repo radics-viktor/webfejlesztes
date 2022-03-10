@@ -67,9 +67,6 @@ a:hover {
 /* white space = sortörés, tabulátor, space */
 #p13 {
     background-color: bisque;
-    /* white-space: pre-wrap; */
-    /* white-space: pre-wrap; */
-    /* white-space: pre-wrap; */
     white-space: nowrap;
     /* white-space: pre-wrap; */
     white-space: pre-line;
@@ -101,7 +98,7 @@ a:hover {
     background-color: rgb(184, 134, 11);
     color: rgb(100, 100, 100);
     font-size: 150%;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
 }
 
 /* árnyalat, telítettség, fényerő */
