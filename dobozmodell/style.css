@@ -1,0 +1,46 @@
+#piros {
+    background-color: red;
+}
+
+span {
+    background-color: yellow;
+    display: block;
+}
+
+a:first-of-type {
+    background-color: green;
+    /* height: 100px; */
+}
+
+#doboz {
+    text-align: center;
+    background-color: orange;
+    width: 40%;
+    height: 100px;
+    padding: 40px;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.doboz {
+    border: 1px solid black;
+}
+
+#div1 {
+    margin: 10px;
+}
+
+#div2 {
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+    margin-left: 100px;
+}
+
+#div3 {
+    margin: 25px 50px 75px 100px;
+}
+
+#div4 {
+    margin: 25px 50px;
+}
