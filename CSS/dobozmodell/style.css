@@ -70,10 +70,10 @@ a:first-of-type {
     --maci: 400px;
     /* variable */
     width: var(--maci);
-    margin: 10px calc((100%-var(--maci))/2);
+    margin: 10px calc((100% - var(--maci))/2);
 }
 
-#div9~div {
+.utso~div {
     width: 80%;
     margin: 10px auto;
     padding: 20px;
@@ -102,10 +102,21 @@ a:first-of-type {
 }
 
 #div14 {
-    width: 40%;
+    width: calc(80% - 18px);
     border: 10px solid blue;
+    box-sizing: content-box;
 }
 
 #div15 {
+    width: calc(80% + 42px);
     border: 10px solid purple;
+    box-sizing: border-box;
+}
+
+#div25 {
+    background-color: lawngreen;
+    width: 70%;
+    border: 10px solid red;
+    /* ezzel együtt 70% */
+    box-sizing: border-box;
 }
