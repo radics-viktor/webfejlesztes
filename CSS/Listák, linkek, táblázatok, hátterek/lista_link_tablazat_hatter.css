@@ -1,0 +1,171 @@
+/*
+    Háttér:
+    1. A háttérkép legyen az "images/caffee.png" kép.
+    2. A háttér mérete 10%.
+    3. Ne ismétlődjön.
+    4. A jobb felső sarokba kerüljön.
+    5. Fixen maradjon is ott ha lefelé görgetünk.
+    Másodlagos háttér:
+    1. Szintén kerüljön a háttérbe az "images/kecske.jpg" kép.
+    2. Mérete 25px legyen.
+    3. Vízszintesen ismétlődjön.
+    4. Az oldal aljára kerüljön.
+    5. Görgetés esetén "mozduljon el".
+*/
+body {
+    width: 80%;
+    margin: 30px auto;
+    background-color: azure;
+    border: 1px solid brown;
+    background-image: url(images/coffee.png), url(images/kecske.jpg);
+    background-size: 10%, 25px;
+    background-repeat: no-repeat, repeat-x;
+    background-position: top right, bottom;
+    /* görgetésnél mindig ott látjuk */
+    background-attachment: fixed, scroll;
+}
+
+/*
+    A kola osztályba tartozó elemek háttere:
+    1. "images/coke.png" legyen.
+    2. Mérete legyen 10%.
+    3. Függőlegesen ismétlődjön.
+    4. Jobboldalra igazodjon.
+*/
+.kola {
+    background-image: url(images/coke.png);
+    background-size: 10%;
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-variant: small-caps;
+    font-size: 3rem;
+    text-decoration: 2px underline double;
+}
+
+/*
+    Állatok lista:
+    1. Bal margó és padding 0 legyen.
+    2. Lista pozíció "belül" legyen.
+    3. Lista szimbólum: kör.
+*/
+ul {
+
+}
+
+/*
+    Italok lista:
+    1. margó és padding legyen 0
+    2. lista pozíció "kívül"
+    3. lista típusa: kis görög betűk
+*/
+ol {
+
+}
+
+/*
+    Égtájak lista: típusa nagy római számjegyek.
+*/
+ul#egtajak {
+
+}
+
+/*
+    A lista elemek között fél sor margó legyen!
+*/
+li {
+
+}
+
+/*
+    Linkek formázása:
+    1. Alaphelyzetben ne legyenek aláhúzva!
+    2. A belső margó 20px legyen.
+    3. Egymás alatt jelenjenek meg, töltsék ki a teljes teret.
+*/
+a {
+    text-decoration: none;
+    padding: 20px;
+    /* display: block; */
+}
+
+/*
+    Linkek állapotai:
+    1. Meg nem látogatott link betűszíne piros.
+    2. Meglátogatott link színe zöld.
+    3. Éppen aktív link betűszíne narancs.
+    4. Ha rávisszük az egeret, akkor
+        - A betűszín legyen citromsárga.
+        - A szöveg legyen 2px vastag szaggatott vonallal aláhúzva.
+        - Háttérszín legyen 50%-os kék.
+        - A doboz kapjon 1px vastag szegélyt (border vs outline).
+*/
+
+
+
+/*
+    Táblázat:
+    0. Az utolsó sor utolsó két celláját vond össze.
+    1. A táblázat legyen középre igazítva.
+    2. A cellaköz 5px legyen.
+*/
+table {
+    border: 1px solid black;
+    background-color: yellowgreen;
+}
+
+/*
+    Cellák:
+    1. A cellák magassága 40px legyen.
+    2. A tartalom vízszintesen középre igazított.
+*/
+td, th {
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+/*
+    1. A fejléc cellák magassága 30px
+    2. Függőlegesen felülre igazodjon a szöveg.
+*/
+th {
+
+}
+
+/*
+    0. A táblázat felirata legyen "Bevásárló lista".
+    1. A felirat alsó margója 10px.
+*/
+
+
+/*
+    Az utolsó sor celláira mutatva a kurzor legyen célkereszt (crosshair).
+*/
+tr:last-of-type {
+
+}
+
+/*
+    A Star Wars cikk háttere legyen piros-kék-zöld lineáris színátmenet.
+*/
+article {
+
+}
+
+article p {
+    font-size: 10px;
+    color: white;
+    text-align: justify;
+    padding: 0px 20px 10px;
+}
+
+/*
+    Az napról szóló cikk háttere legyen narancs-fekete lineáris színátmenet a bal felső sarokból a jobb alsó felé. (0deg = 0fok = felfelé irány)
+*/
+article:last-of-type {
+
+}
