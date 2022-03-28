@@ -21,7 +21,7 @@ body {
     background-size: 10%, 25px;
     background-repeat: no-repeat, repeat-x;
     background-position: top right, bottom;
-    /* görgetésnél mindig ott látjuk */
+    /* fixed = görgetésnél mindig ott látjuk */
     background-attachment: fixed, scroll;
 }
 
