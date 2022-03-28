@@ -1,0 +1,88 @@
+body {
+    width: 80%;
+    margin: 30px auto;
+    background-color: bisque;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 0px;
+}
+
+p {
+    text-align: justify;
+}
+
+/*
+    A képek szélessége 20% legyen.
+*/
+img {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+/*
+    A "jobbra" osztályba tartozó elemek lebegjenek jobbra.
+*/
+.jobbra {
+    margin-left: 20px;
+    float: right;
+}
+
+/*
+    A 2-es szintű címsorok a legutolsó jobbra lebegő elem után következzenek.
+*/
+h2 {
+    font-size: 1em;
+    clear: right;
+}
+
+div.clearfix {
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+/*
+    A clearfix osztályba tartozó elemek magassága terjedjen ki a legutolsó lebegő elem végéig!
+    Megoldás:
+    0. Formázzuk a doboz tartalmát követő részt.
+    1. A tartalma legyen üres.
+    2. Megjelenítése blokk szintű.
+    3. Az utolsó lebegő elem után következzen.
+*/
+div.clearfix::after {
+    /* utolsó elem utáni */
+    content: "";
+    display: block;    /* megjelenítés: blokk szintű megjelenítés*/
+    clear: both;
+}
+
+/* 
+    A "balra osztályba tartozó elemek lebegjenek balra.
+*/
+.balra {
+    margin-right: 20px;
+}
+
+/*
+    A cikkeknél a "túlcsordulás" kezelése legyen automatikus! (Ne lóghasson rajta ki semmi.)
+*/
+article {
+    background-color: rgba(121, 60, 4, 0.4);
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+/*
+    1. A bal osztályba tartozó dobozok lebegjenek balra.
+    2. Magasságuk 50px legyen.
+*/
+.bal {
+    background-color: rgb(0, 0, 0, 0.4);
+    padding: 5px;
+    margin: 5px;
+}
