@@ -26,30 +26,34 @@ div {
 */
 
 .doboz1 {
-
+    overflow: hidden;
 }
 
 .doboz2 {
-
+    overflow: scroll;
 }
 
 .doboz3 {
-
+    overflow-y: scroll;
 }
 
 .doboz4 {
-
+    white-space: nowrap;
+    overflow-x: scroll;
 }
 
 .doboz5 {
-
+    overflow: auto;
 }
 
 /*
     A doboz5 osztályba tartozó elemeket követő dobozok tartalma legyen középre igazítva.
 */
 .doboz5~div {
-
+    display: flex;
+    justify-content: center; /* vízszintes középre */
+    align-items: center; /* függőleges középre */
+    text-align: center;
 }
 
 /*
@@ -63,7 +67,7 @@ div {
     Az atlatszo30 osztályba tartozó elem átlátszósága legyen 30%.
 */
 .atlatszo30 {
-
+    opacity: 30%;
 }
 
 /*
