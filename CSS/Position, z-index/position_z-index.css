@@ -1,0 +1,169 @@
+/*
+    A body pozíciója legyen relatív.
+    Zöld doboz igazítása miatt kell: az abszolút az első igazított (nem static) őshöz igazodik.
+*/
+body {
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid black;
+    position: relative;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    text-align: justify;
+    margin: 20px;
+}
+
+.content {
+    border: 2px solid black;
+    margin: auto;
+    color: white;
+    background-color: rgba(178, 120, 0, 0.4);
+    width: 80%;
+    height: auto;
+}
+
+.content div {
+    padding: 20px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*
+    A piros doboz igazodjon az aktuális pozíciójához képest 20px-el le, 40px-el jobbra.
+*/
+.piros {
+    background-color: red;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+/*
+    1. A zöld doboz igazodjon a body jobb felső sarkába.
+    2. A szélesség legyen 200 képpont.
+    3. A padding 0 képpont.
+    4. A sormagasság 2-szeres.
+    Miért nem elég a ".zold" szelektor?
+*/
+.content .zold {
+    background-color: green;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 200px;
+    padding: 0px;
+    line-height: 2em;
+}
+
+/*
+    1. A kék doboz legyen fixen az oldal bal felső sarkához képest 30px-el jobbra, 10px-el lentebb.
+    2. Szélessége legyen 150 képpont.
+    3. A belső bélés függőlegesen 0px, vízszintesen 10px.
+    4. A sormagasság 5-szörös.
+    5. A betűméret 10 képpont.
+*/
+.content .kek {
+    background-color: blue;
+}
+
+/*
+    1. A narancs doboz legyen fixen az oldal jobb alsó sarkához képest 20px-el balra, 10px-el fentebb.
+    2. A belső bélés 0px legyen.
+*/
+.content .narancs {
+    background-color: orange;
+}
+
+.narancs a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 60px;
+    background-color: orange;
+}
+
+/*
+    Ha fölé kerül az egér akkor legyen
+    1. A háttér citromsárga.
+    2. A betűszín fekete.
+    3. A "külső szegély" (outline) 1px szaggatott fekete.
+    4. Az animáció fél másodperc alatt menjen végbe.
+*/
+.narancs a:hover {
+
+}
+
+/*
+    A lila doboz pozíciója legyen alapértelmezett amíg a képernyő tetejére nem ér, utána "ragadjon" a képernyő tetejéhez amíg a szülő .content osztályú doboz végéig nem ér.
+*/
+.lila {
+    background-color: purple;
+}
+
+.fekete {
+    background-color: black;
+}
+
+.barna {
+    background-color: brown;
+}
+
+/*
+    A számozott színes dobozok igazítása legyen abszolút és a content2 osztályba tartozó szülőhöz igazodjanak!
+*/
+.content2 {
+    background-color: azure;
+    width: 90%;
+    height: 140px;
+    margin: auto;
+}
+
+.content2 div {
+    height: 40px;
+    width: 40px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+    A dobozok sorrendje alulról felfelé legyen: 3, 2, 5, 1, 4
+*/
+#doboz1 {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+}
+
+#doboz2 {
+    background-color: green;
+    left: 25px;
+    top: 25px;
+}
+
+#doboz3 {
+    background-color: blue;
+    left: 50px;
+    top: 50px;
+}
+
+#doboz4 {
+    background-color: brown;
+    left: 75px;
+    top: 75px;
+}
+
+#doboz5 {
+    background-color: purple;
+    left: 100px;
+    top: 100px;
+}
