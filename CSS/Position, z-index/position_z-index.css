@@ -72,6 +72,13 @@ p {
 */
 .content .kek {
     background-color: blue;
+    position: fixed;
+    top: 10px;
+    left: 30px;
+    width: 150px;
+    padding: 0px 10px;
+    line-height: 5em;
+    font-size: 10px;
 }
 
 /*
@@ -80,6 +87,10 @@ p {
 */
 .content .narancs {
     background-color: orange;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    padding: 0px;
 }
 
 .narancs a {
@@ -97,7 +108,10 @@ p {
     4. Az animáció fél másodperc alatt menjen végbe.
 */
 .narancs a:hover {
-
+    background-color: yellow;
+    color: black;
+    outline: 1px dashed black;
+    transition: 0.5s;
 }
 
 /*
@@ -105,6 +119,8 @@ p {
 */
 .lila {
     background-color: purple;
+    position: sticky;
+    top: 0px;
 }
 
 .fekete {
