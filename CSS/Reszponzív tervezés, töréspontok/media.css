@@ -1,0 +1,116 @@
+body {
+    width: 80%;
+    margin: 2em auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+h1, footer p {
+    text-align: center;
+}
+
+/*
+    A kép
+    1. Szélessége legyen 50%
+    2. Megjelenítése blokk szintű
+    3. Igazodjon középre
+    4. Lebegjen jobbra (Mi értelme akkor az előzőnek?)
+    5. Maximális szélessége 300px legyen.
+*/
+img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    float: right;
+    max-width: 300px;
+}
+
+/*
+    A navigációs lista legyen flexbox megjelenésű, a tér a menüpontok körül osztódjon el.
+*/
+nav ul {
+    background-color: lightblue;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav a {
+    display: flex;
+    padding: 20px 30px;
+    font-size: 150%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: lightsalmon;
+}
+
+#fel {
+    position: fixed;
+    right: 10%;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fel a {
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: azure;
+}
+
+#fel a:hover {
+    background-color: lightgreen;
+    outline: 1px dotted brown;
+}
+
+/*
+    Legyen a body minimális szélessége 700px.
+*/
+/*
+body {
+    min-width: 700px;
+}
+*/
+
+/*
+    Adjunk hozzá média töréspontokat:
+    1. max 760px
+        - Betűméret 75% legyen.
+        - A navigáció háttere orange
+        - A navigációs linkek belső bélése 10px 20px
+    2. max 570px
+        - A navigáció háttere green legyen.
+        - A navigációs linkek belső bélése 10px 0px
+        - A navigációs linkek betűszíne fehér (csakis ebben a tartományban!)
+    3. max 400px
+        - A navigáció háttere aqua legyen.
+        - A navigációs linkek egymás alatt (block) jelenjenek meg, a szövegek középre igazodjanak, a belső bélés 20px 0px legyen.
+        - A kép ne lebegjen!
+*/
+@media (max-width: 760px) {
+    body {
+        font-size: 75%;
+    }
+    nav ul {
+        background-color: orange;
+    }
+    nav ul link a {
+        padding: 10px 20px;
+    }
+@media (max-width: 560px)
+}
+/*
+    Elfektetett nézetben
+    1. A fixen pozícionált hivatkozás balra igazodjon.
+    2. A lábléc ne jelenjen meg.
+*/
