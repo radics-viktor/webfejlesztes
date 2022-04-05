@@ -107,10 +107,44 @@ body {
     nav ul link a {
         padding: 10px 20px;
     }
-@media (max-width: 560px)
+}
+
+@media (min-width: 400px) and (max-width: 570px){
+    nav ul {
+        background-color: green;
+    }
+
+    nav ul li a {
+        padding: 10px 0px;
+        color: white;
+    }
+}
+
+@media(max-width: 400px) {
+    nav ul {
+        background-color: aqua;
+        display: block;
+    }
+
+    nav ul li a {
+        display: block;
+        text-align: center;
+    }
+
+    img {
+        float: none;
+    }
 }
 /*
     Elfektetett nézetben
     1. A fixen pozícionált hivatkozás balra igazodjon.
     2. A lábléc ne jelenjen meg.
 */
+@media (orientation: landscape) {
+    #fel {
+        right: 80%;
+    }
+    footer {
+        display: none;
+    }
+}
