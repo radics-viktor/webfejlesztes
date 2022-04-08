@@ -1,0 +1,15 @@
+/* CSS reset */
+button {
+    margin: 0px;
+    border: 4px solid hotpink;
+}
+
+button.btn {
+    display: block;
+    margin: 10px auto;
+    color: yellow;
+}
+
+td {
+    border: 1px solid black;
+}
