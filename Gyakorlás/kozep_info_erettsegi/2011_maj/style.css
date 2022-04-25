@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(177, 199, 223);
+}
+
+a:hover, a:visited, a:active, a:link {
+    color: #666584;
+}
+
+.container {
+    width: 650px;
+    margin: auto;
+    background-color: #5C6B7B;
+}
+
+.container>.container {
+    width: 600px;
+    margin: auto; /* alapból be van állítva, tehát ez felesleges */
+    background-color: white;
+}
+
+.col {
+    padding: 0px;
+}
