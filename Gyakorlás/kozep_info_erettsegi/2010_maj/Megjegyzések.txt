@@ -1,7 +1,0 @@
-4. Táblázat helyett grid legyen az alap: col-2 és col-10 (utóbbit ugye meg sem kell adni)
-
-5. Csak a háttérszín kell a konténerre (cellaköz, cellamargó és oszlopszélesség nem)
-
-6. Igazítás flexbox beállításokkal célszerű, a beszúrt képek margója vízszintesen 0px és függőlegesen 10px legyen.
-
-10. A vonal igazításakor érdemes adni neki függőlegesen 20px margót (vízszintesen pedig automatikus legyen, hogy középre igazodjon).
