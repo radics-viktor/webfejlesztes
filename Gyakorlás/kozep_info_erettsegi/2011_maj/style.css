@@ -21,3 +21,18 @@ a:hover, a:visited, a:active, a:link {
 .col {
     padding: 0px;
 }
+
+.menu {
+    background-color: #CDDBEB;
+    height: 35px;
+    text-align: center;
+    align-items: center;  /* align-items;justify-content: flexboxból ezek kellenek csak*/
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#forras {
+    font-size: 0.75em;
+}
