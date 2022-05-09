@@ -1,11 +1,9 @@
 .hasab {
     float: left;
-}
-
-
-footer {
-
-
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
 }
 
 body {
@@ -17,14 +15,50 @@ body {
 h1 {
     /* text-decoration: underline 2px solid #a52a2a; */
     border-bottom: 2px solid #a52a2a;
+    padding-bottom: 5px;
 }
 
 li {
     display: inline-block;
     min-width: 50px;
     border-right: 2px solid #a52a2a;
+    padding: 6px;
+    color: white;
 }
 
 li:last-child {
     border-right: none;
+}
+
+h2 {
+    width: 96%;
+    background-color: #cd853f;
+    font-style: italic;
+    padding: 10px;
+    box-sizing: border-box; /* mindennel együtt 96% */
+}
+
+p {
+    text-align: justify;
+}
+
+.hasab>p {
+    width: 96%;
+}
+
+img {
+    width: 100px;
+    float: left;
+    border: 2px solid #a52a2a;
+    margin: 10px;
+}
+
+footer {
+    border-top: 2px solid #a52a2a;
+    clear: both;
+    padding-top: 5px;
+}
+
+ul {
+    padding: 0; /* 0px */
 }
